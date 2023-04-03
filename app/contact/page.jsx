@@ -1,10 +1,13 @@
+
 import React from 'react'
+import ServerComponent from '../components/servers/ServerComponent'
+import Contact from './contact'
 
 const page = () => {
   return (
-    <div>
-      <h2>Contact</h2>
-    </div>
+    <Contact value={"Nice Contact"}>
+      <ServerComponent/>
+    </Contact>
   )
 }
 

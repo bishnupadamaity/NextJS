@@ -105,3 +105,14 @@ a {
     color-scheme: dark;
   }
 }
+
+nav{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  height: 8vh;
+  background-color: #ff6bd847;
+  justify-content: space-around;
+  padding: 3vh;
+  
+}
